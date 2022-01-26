@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>first on Alan Kan的Development Blog</title>
+    <link>https://alank976.github.io/blog/zh_hk/tags/first/</link>
+    <description>Recent content in first on Alan Kan的Development Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jan 2022 11:53:23 +0000</lastBuildDate><atom:link href="https://alank976.github.io/blog/zh_hk/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test寫blog</title>
+      <link>https://alank976.github.io/blog/zh_hk/posts/test/</link>
+      <pubDate>Wed, 26 Jan 2022 11:53:23 +0000</pubDate>
+      
+      <guid>https://alank976.github.io/blog/zh_hk/posts/test/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+  </channel>
+</rss>
