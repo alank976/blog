@@ -1,7 +1,6 @@
 baseURL = 'https://alank976.github.io/blog'
-# baseURL = 'https://alank976.github.io/blog'
 languageCode = 'en-us'
-title = 'My Development Blog'
+title = "Alan Kan's Developer Blog"
 theme = "PaperMod"
 
 # For PaperMod
@@ -22,12 +21,12 @@ home = ["HTML", "RSS", "JSON"]
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
+title = "Alan Kan's Developer Blog"
+description = "A blog written by yet another developer called Alan Kan "
 keywords = ["Blog", "PaperMod"]
 author = "Me"
 # images = ["<link or path of image for opengraph, twitter-cards>"]
-DateFormat = "January 2, 2006"
+DateFormat = "2006-01-02T15:04:05-0700"
 defaultTheme = "auto"
 disableThemeToggle = false
 ShowReadingTime = true
@@ -58,17 +57,23 @@ iconHeight = 35
 [params.profileMode]
 enabled = false
 
-[[params.profileMode.buttons]]
-name = "Posts"
-url = "posts"
+# [[params.profileMode.buttons]]
+# name = "Posts"
+# url = "posts"
 
-[[params.profileMode.buttons]]
-name = "Tags"
-url = "tags"
+# [[params.profileMode.buttons]]
+# name = "Tags"
+# url = "tags"
 
 [params.homeInfoParams]
-Title = "Hi there 👋"
-Content = "Welcome to my blog"
+Title = "Welcome to Alan Kan's developer blog 👋"
+Content = """
+This blog is a place to log my learning experiences, and maybe some reflections I have along my full time job or my toy projects🤖.
+
+I hope my experiences could be useful for some other developer fellows from somewhere in the world, or at least, you have my upvote/downvote for the same topics/arguments so you won't feel alone😆. 
+
+Though I probably just talk to myself in most of the cases at this stage, I still wish I can learn more from you via your comments, so please let me know your thoughts too!
+"""
 
 [[params.socialIcons]]
 name = "github"
@@ -93,7 +98,7 @@ hiddenInList = true
 hiddenInSingle = true
 
 [params.editPost]
-URL = "https://github.com/<path_to_repo>/content"
+URL = "https://github.com/alank976/blog/tree/main/content"
 Text = "Suggest Changes"
 appendFilePath = true
 
@@ -116,10 +121,16 @@ weight = 1
 languageAltTitle = "繁體中文(香港)"
 
 weight = 2
-title = "Alan Kan的Development Blog"
+title = "Alan Kan的Developer Blog"
 [languages.zh_hk.homeInfoParams]
-Title = "嗨 there 👋"
-Content = "TODO中文"
+Title = "歡迎來到Alan Kan的Developer Blog👋"
+Content = """
+我會用這個Blog去紀錄我在我的全職工作或私下的toy project🤖時的學習心得及體會. 
+
+我希望我的紀錄可以幫世界上某一處的developer同儕上一點點忙, 或起碼你知道我跟你一樣支持或反對類比似觀點, 好讓你知道你不是孤軍作戰😆.
+
+雖然有大機會我只會在這裡自言先語, 但也很希望從你們的回應中學習更多, 所以請讓我知道你的想法!
+"""
 
 [[menu.main]]
 identifier = "tags"
