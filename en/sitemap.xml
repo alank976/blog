@@ -3,7 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://alank976.github.io/blog/</loc>
-    <lastmod>2022-01-26T11:49:36+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh_hk"
@@ -13,58 +12,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://alank976.github.io/blog/"
-                />
-  </url><url>
-    <loc>https://alank976.github.io/blog/tags/first/</loc>
-    <lastmod>2022-01-26T11:49:36+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh_hk"
-                href="https://alank976.github.io/blog/zh_hk/tags/first/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://alank976.github.io/blog/tags/first/"
-                />
-  </url><url>
-    <loc>https://alank976.github.io/blog/posts/test/</loc>
-    <lastmod>2022-01-26T11:49:36+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh_hk"
-                href="https://alank976.github.io/blog/zh_hk/posts/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://alank976.github.io/blog/posts/test/"
-                />
-  </url><url>
-    <loc>https://alank976.github.io/blog/posts/</loc>
-    <lastmod>2022-01-26T11:49:36+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh_hk"
-                href="https://alank976.github.io/blog/zh_hk/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://alank976.github.io/blog/posts/"
-                />
-  </url><url>
-    <loc>https://alank976.github.io/blog/tags/</loc>
-    <lastmod>2022-01-26T11:49:36+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh_hk"
-                href="https://alank976.github.io/blog/zh_hk/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://alank976.github.io/blog/tags/"
                 />
   </url><url>
     <loc>https://alank976.github.io/blog/categories/</loc>
@@ -80,5 +27,17 @@
                 />
   </url><url>
     <loc>https://alank976.github.io/blog/search/</loc>
+  </url><url>
+    <loc>https://alank976.github.io/blog/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh_hk"
+                href="https://alank976.github.io/blog/zh_hk/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://alank976.github.io/blog/tags/"
+                />
   </url>
 </urlset>
