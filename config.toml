@@ -70,7 +70,7 @@ Title = "Welcome to Alan Kan's developer blog 👋"
 Content = """
 This blog is a place to log my learning experiences, and maybe some reflections I have along my full time job or my toy projects🤖
 
-Though I probably just talk to myself here in most of the cases, do feel free to leave your comments anytime. Feedback is always welcomed :wink:
+Though I probably just talk to myself here in most of the cases, do feel free to leave your comments anytime. Feedback is always welcomed😉
 """
 
 [[params.socialIcons]]
@@ -125,7 +125,7 @@ Title = "歡迎來到Alan Kan的Developer Blog👋"
 Content = """
 這個Blog是用來紀錄我在我的全職工作或私下的toy project🤖時的學習心得及體會. 
 
-雖然很大機會我只會在這裡自言先語, 不過我非常歡迎留言 :wink:
+雖然很大機會我只會在這裡自言先語, 不過我非常歡迎留言😉
 """
 
 [[menu.main]]

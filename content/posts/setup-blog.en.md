@@ -38,3 +38,20 @@ I decided to write blog posts to log my learning experiences as a tool of reflec
 I heard that Github Pages is able to host static website easily via converting some markdown into HTMLs. And actually, I had given it a shot long long time ago for my [resume](https://alank976.github.io/markdown-resume) with Jekyll. The experience is not bad, just that I had to tweak some HTML/CSS templates from time to time when I need to customize stuff. Not much to complain given it's free. And again, it's powered by Github. It's techy 🤓, and so it's sexy :joy:
 
 TBC
+## Hugo
+- why not jekyll
+- from go/helm 
+- community and marketplace!
+- tutorial
+- PaperMod
+- CLI
+
+## Github Action
+- CI
+- render from templates
+- matured
+
+## giscus
+- disque
+- facebook comment
+- https://github.com/utterance/utterances
