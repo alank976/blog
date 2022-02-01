@@ -68,11 +68,9 @@ enabled = false
 [params.homeInfoParams]
 Title = "Welcome to Alan Kan's developer blog 👋"
 Content = """
-This blog is a place to log my learning experiences, and maybe some reflections I have along my full time job or my toy projects🤖.
+This blog is a place to log my learning experiences, and maybe some reflections I have along my full time job or my toy projects🤖
 
-I hope my experiences could be useful for some other developer fellows from somewhere in the world, or at least, you have my upvote/downvote for the same topics/arguments so you won't feel alone😆. 
-
-Though I probably just talk to myself in most of the cases at this stage, I still wish I can learn more from you via your comments, so please let me know your thoughts too!
+Though I probably just talk to myself here in most of the cases, do feel free to leave your comments anytime. Feedback is always welcomed :wink:
 """
 
 [[params.socialIcons]]
@@ -125,11 +123,9 @@ title = "Alan Kan的Developer Blog"
 [languages.zh_hk.homeInfoParams]
 Title = "歡迎來到Alan Kan的Developer Blog👋"
 Content = """
-我會用這個Blog去紀錄我在我的全職工作或私下的toy project🤖時的學習心得及體會. 
+這個Blog是用來紀錄我在我的全職工作或私下的toy project🤖時的學習心得及體會. 
 
-我希望我的紀錄可以幫世界上某一處的developer同儕上一點點忙, 或起碼你知道我跟你一樣支持或反對類比似觀點, 好讓你知道你不是孤軍作戰😆.
-
-雖然有大機會我只會在這裡自言先語, 但也很希望從你們的回應中學習更多, 所以請讓我知道你的想法!
+雖然很大機會我只會在這裡自言先語, 不過我非常歡迎留言 :wink:
 """
 
 [[menu.main]]
