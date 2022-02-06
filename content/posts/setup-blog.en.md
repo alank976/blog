@@ -8,7 +8,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: true
-description: "Desc Text."
+# description: "Desc Text."
 canonicalURL: "https://alank976.github.io/blog/posts/setup-blog"
 disableHLJS: false # to disable highlightjs
 disableShare: false
