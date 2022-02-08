@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Alan Kan&#39;s Developer Blog</title>
-    <link>https://alank976.github.io/blog/tags/</link>
+    <link>https://blog.alankan.dev/tags/</link>
     <description>Recent content in Tags on Alan Kan&#39;s Developer Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://alank976.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.alankan.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blog</title>
-      <link>https://alank976.github.io/blog/tags/blog/</link>
+      <link>https://blog.alankan.dev/tags/blog/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://alank976.github.io/blog/tags/blog/</guid>
+      <guid>https://blog.alankan.dev/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>giscus</title>
-      <link>https://alank976.github.io/blog/tags/giscus/</link>
+      <link>https://blog.alankan.dev/tags/giscus/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://alank976.github.io/blog/tags/giscus/</guid>
+      <guid>https://blog.alankan.dev/tags/giscus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github-pages</title>
-      <link>https://alank976.github.io/blog/tags/github-pages/</link>
+      <link>https://blog.alankan.dev/tags/github-pages/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://alank976.github.io/blog/tags/github-pages/</guid>
+      <guid>https://blog.alankan.dev/tags/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://alank976.github.io/blog/tags/hugo/</link>
+      <link>https://blog.alankan.dev/tags/hugo/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://alank976.github.io/blog/tags/hugo/</guid>
+      <guid>https://blog.alankan.dev/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>https://alank976.github.io/blog/tags/jekyll/</link>
+      <link>https://blog.alankan.dev/tags/jekyll/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://alank976.github.io/blog/tags/jekyll/</guid>
+      <guid>https://blog.alankan.dev/tags/jekyll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PaperMod</title>
-      <link>https://alank976.github.io/blog/tags/papermod/</link>
+      <link>https://blog.alankan.dev/tags/papermod/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://alank976.github.io/blog/tags/papermod/</guid>
+      <guid>https://blog.alankan.dev/tags/papermod/</guid>
       <description></description>
     </item>
     
