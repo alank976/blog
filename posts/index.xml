@@ -8,12 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://alank976.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog with Github Pages, Hugo, PaperMod and Giscus</title>
+      <title>How did I create this blog for free with Github Pages, Hugo, PaperMod and Giscus</title>
       <link>https://alank976.github.io/blog/posts/setup-blog/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://alank976.github.io/blog/posts/setup-blog/</guid>
-      <description>Desc Text.</description>
+      <description>Setting up a personal blog with Github Pages, Hugo and PaperMod I decided to write blog posts to log my learning experiences as a tool of reflection. Apparently, opensource stuff is preferred since I don&amp;rsquo;t want to pay for it.
+Github Pages I heard about Github Pages can host static websites easily via converting some markdown into HTMLs. And actually, I had given it a shot long long time ago for my resume with Jekyll.</description>
     </item>
     
   </channel>
