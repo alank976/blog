@@ -8,7 +8,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: true
-canonicalURL: "https://alank976.github.io/blog/posts/setup-blog"
+canonicalURL: "https://blog.alankan.dev/posts/setup-blog"
 disableHLJS: false # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -57,7 +57,7 @@ It's basically a free CI tool I use in many other places as well. It contributes
 
 ## giscus
 
-Up to here, I checked out the theme submodule, did some configuration crunching, and set up the Github Actions workflow to build the HTMLs to `gh-pages` branch. After a few minutes, the blog should be reachable in [my github page URL](https://alank976.github.io/blog). Are we done?
+Up to here, I checked out the theme submodule, did some configuration crunching, and set up the Github Actions workflow to build the HTMLs to `gh-pages` branch. After a few minutes, the blog should be reachable in [my github page URL](https://blog.alankan.dev). Are we done?
 
 Not quite. As I mentioned in the welcoming page, comments are welcomed. How can I make this static page interactive instead of monotonically saying things in single direction? Again, I googled around and found these possibilities from this [stackoverflow answer](https://stackoverflow.com/a/61740829):
 

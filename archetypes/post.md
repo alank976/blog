@@ -11,7 +11,7 @@ draft: true
 hidemeta: false
 comments: true
 description: "Desc Text here...."
-canonicalURL: "https://alank976.github.io/blog/posts/REPLACE_ME"
+canonicalURL: "https://blog.alankan.dev/posts/REPLACE_ME"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 hideSummary: false
