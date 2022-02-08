@@ -22,8 +22,8 @@ home = ["HTML", "RSS", "JSON"]
 
 [params]
 env = "production"
-title = "Alan Kan's Developer Blog"
-description = "A blog written by yet another developer called Alan Kan "
+title = "Yet Another Developer Blog by Alan Kan"
+description = "A developer blog about any (technical) thing Alan Kan wants to jot it down"
 keywords = ["Blog", "PaperMod"]
 author = "Me"
 # images = ["<link or path of image for opengraph, twitter-cards>"]

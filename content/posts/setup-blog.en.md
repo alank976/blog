@@ -1,5 +1,5 @@
 ---
-title: "Blog with Github Pages, Hugo, PaperMod and Giscus"
+title: "How did I create this blog for free with Github Pages, Hugo, PaperMod and Giscus"
 date: 2022-01-26
 tags: ["blog", "hugo", "github-pages", "Jekyll", "PaperMod", "giscus"]
 # author: "Me"
@@ -8,7 +8,6 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: true
-description: "Desc Text."
 canonicalURL: "https://alank976.github.io/blog/posts/setup-blog"
 disableHLJS: false # to disable highlightjs
 disableShare: false
@@ -40,15 +39,18 @@ I heard about [Github Pages](https://pages.github.com/) can host static websites
 
 ## Hugo
 
+![](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)
+![](https://d33wubrfki0l68.cloudfront.net/d7c79b5c53384a57cfcf5bfb1a3f6f009a058b0b/16f81/images/gopher-hero.svg)
+
 Perhaps, a part of me believed some better alternatives must have emerged for this 3-year period. I decided to achieve the same thing differently this time and Hugo was picked. As I write Helm templates day to day, knowing Hugo is also from Go template is definitely another reason that pushed me towards it.
 
 To start with, googling for a tutorial article is probably the most common way to do :wink: During following the [Quick Start](https://gohugo.io/getting-started/quick-start/) and [Host on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/) tutorials, I learnt three things noteworthy:
 
 - Hugo allows "importing" the theme and style stuff by adding a git submodule, which results in a dynamic link to the theme repository without any pain
-- The Hugo community is awesome. There are heaps of marketplaces/catalogs you can shop around for your favourite themes. For instance,<https://themes.gohugo.io> is a free one and the theme PaperMod I am using here is picked from there.
+- The Hugo community is awesome. There are heaps of marketplaces/catalogs you can shop around for your favourite themes. For instance, https://themes.gohugo.io is a free one and the theme PaperMod I am using here is picked from there.
 - The `hugo` CLI is great too. It supports "hot reload" and so it makes previewing how my content will be rendered way easier
 
-I would skip the details about how I configured the properties in `config.toml` since it's tied to the chosen theme. All I need to do is to refer to the documentation PaperMod provides in [its Github Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki). 
+I would skip the details about how I configured the properties in `config.toml` since it's tied to the chosen theme. All I need to do is to refer to the documentation PaperMod provides in [its Github Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki).
 
 ## Github Action
 
@@ -56,18 +58,19 @@ It's basically a free CI tool I use in many other places as well. It contributes
 
 ## giscus
 
+![](https://avatars.githubusercontent.com/in/106117)
 Up to here, I checked out the theme submodule, did some configuration crunching, and set up the Github Actions workflow to build the HTMLs to `gh-pages` branch. After a few minutes, the blog should be reachable in [my github page URL](https://alank976.github.io/blog). Are we done?
 
 Not quite. As I mentioned in the welcoming page, comments are welcomed. How can I make this static page interactive instead of monotonically saying things in single direction? Again, I googled around and found these possibilities from this [stackoverflow answer](https://stackoverflow.com/a/61740829):
 
 - Disqus :x: :money_with_wings:
 - Facebook: Personal bias. Not a fan of facebook anymore...
-- [utterances](https://utteranc.es/)
+- [utterances](https://utteranc.es/) ![](https://avatars3.githubusercontent.com/u/27908738?v=3&s=88)
 - and a few others
 
-Utterances sounds a good fit since it simply uses Github issue as a data store of the comments, so it is free. Also, thanks to this high degree of reuse, I don't have to take care of authentication and data storage at all. And Utterances provides the layout and supports markdown, emojis, etc, all out of the box. 
+Utterances sounds a good fit since it simply uses Github issue as a data store of the comments, so it is free. Also, thanks to this high degree of reuse, I don't have to take care of authentication and data storage at all. And Utterances provides the layout and supports markdown, emojis, etc, all out of the box.
 
-But wait, issue? Are those really issues? I recalled Github released a lot of great new features in recent years. I mentioned *Actions* and *Pages*. There are also *Registry*, and **Discussions**! It fits **comment** semantics perfectly. 
+But wait, issue? Are those really issues? I recalled Github released a lot of great new features in recent years. I mentioned _Actions_ and _Pages_. There are also _Registry_, and **Discussions**! It fits **comment** semantics perfectly.
 
 So, I did the second round of researching and finally found my solution - [giscus](https://giscus.app/). It shares the same mechanism and concepts as Utterances basically. The way to include that part of the additional script is again specific to the chosen Hugo template. For PaperMod, it's as easy as enabling a config and including the `<script>` block accordingly as instructed.
 
