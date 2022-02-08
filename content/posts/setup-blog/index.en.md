@@ -17,12 +17,12 @@ searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-# cover:
-#     image: "<image path/url>" # image path/url
-#     alt: "<alt text>" # alt text
-#     caption: "<text>" # display caption under cover
-#     relative: false # when using page bundles set this to true
-#     hidden: true # only hide on current single page
+cover:
+    image: "https://d33wubrfki0l68.cloudfront.net/d7c79b5c53384a57cfcf5bfb1a3f6f009a058b0b/16f81/images/gopher-hero.svg" # image path/url
+    # alt: "<alt text>" # alt text
+    # caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    # hidden: true # only hide on current single page
 # editPost:
 #     URL: "https://github.com/alank976/blog/tree/main/content"
 #     Text: "Suggest Changes" # edit text
@@ -39,8 +39,7 @@ I heard about [Github Pages](https://pages.github.com/) can host static websites
 
 ## Hugo
 
-![](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)
-![](https://d33wubrfki0l68.cloudfront.net/d7c79b5c53384a57cfcf5bfb1a3f6f009a058b0b/16f81/images/gopher-hero.svg)
+![gopher-hugo](images/gopher-hero.svg)
 
 Perhaps, a part of me believed some better alternatives must have emerged for this 3-year period. I decided to achieve the same thing differently this time and Hugo was picked. As I write Helm templates day to day, knowing Hugo is also from Go template is definitely another reason that pushed me towards it.
 
@@ -58,14 +57,13 @@ It's basically a free CI tool I use in many other places as well. It contributes
 
 ## giscus
 
-![](https://avatars.githubusercontent.com/in/106117)
 Up to here, I checked out the theme submodule, did some configuration crunching, and set up the Github Actions workflow to build the HTMLs to `gh-pages` branch. After a few minutes, the blog should be reachable in [my github page URL](https://alank976.github.io/blog). Are we done?
 
 Not quite. As I mentioned in the welcoming page, comments are welcomed. How can I make this static page interactive instead of monotonically saying things in single direction? Again, I googled around and found these possibilities from this [stackoverflow answer](https://stackoverflow.com/a/61740829):
 
 - Disqus :x: :money_with_wings:
 - Facebook: Personal bias. Not a fan of facebook anymore...
-- [utterances](https://utteranc.es/) ![](https://avatars3.githubusercontent.com/u/27908738?v=3&s=88)
+- [utterances](https://utteranc.es/)
 - and a few others
 
 Utterances sounds a good fit since it simply uses Github issue as a data store of the comments, so it is free. Also, thanks to this high degree of reuse, I don't have to take care of authentication and data storage at all. And Utterances provides the layout and supports markdown, emojis, etc, all out of the box.
