@@ -66,10 +66,12 @@ Not quite. As I mentioned in the welcoming page, comments are welcomed. How can 
 - [utterances](https://utteranc.es/)
 - and a few others
 
-Utterances sounds a good fit since it simply uses Github issue as a data store of the comments, so it is free. Also, thanks to this high degree of reuse, I don't have to take care of authentication and data storage at all. And Utterances provides the layout and supports markdown, emojis, etc, all out of the box.
+Utterances sounds a good fit since it simply uses Github issue as a data store of the comments, so it is free. Also, thanks to this high degree of reuse, I don't have to take care of authentication and data storage at all. And Utterances provides the layout and supports markdown, emojis, etc, all out of the box. The only requirements are: 1) Making the repo public (in order to send your github issues) and 2) Authorizing Utterances github app to integrate (you can authorize just a list of repos but not all of yours)
 
-But wait, issue? Are those really issues? I recalled Github released a lot of great new features in recent years. I mentioned _Actions_ and _Pages_. There are also _Registry_, and **Discussions**! It fits **comment** semantics perfectly.
+But wait, issue? Are those really issues? I recalled Github released a lot of great new features in recent years. I mentioned _Actions_ and _Pages_. There are also _Registry_, and **Discussions**! **Discussions** fits **comment** semantics perfectly.
 
-So, I did the second round of researching and finally found my solution - [giscus](https://giscus.app/). It shares the same mechanism and concepts as Utterances basically. The way to include that part of the additional script is again specific to the chosen Hugo template. For PaperMod, it's as easy as enabling a config and including the `<script>` block accordingly as instructed.
+So, I did the second round of researching and finally found my solution - [giscus](https://giscus.app/) and a tutorial [here](https://www.cesarsotovalero.net/blog/replace-disqus-with-a-better-alternative.html). It shares the same mechanism and concepts as Utterances basically. Same goes for the requirements: public repo, integrate the app but one extra thing is enabling Github Discussions in repo settings as it is still a feature requiring an explicit opt-in somehow.
+    
+The way to include that part of the additional script is again specific to the chosen Hugo template. For PaperMod, it's as easy as enabling a config and including the `<script>` block accordingly as instructed.
 
 That's it :tada:! That's how I create this blog that you are reading 😄. My 1st blog :white_check_mark:
