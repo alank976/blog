@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.alankan.dev/</loc>
-    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh_hk"
@@ -14,6 +14,50 @@
                 hreflang="en"
                 href="https://blog.alankan.dev/"
                 />
+  </url><url>
+    <loc>https://blog.alankan.dev/tags/cncf/</loc>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.alankan.dev/tags/digitalocean/</loc>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.alankan.dev/posts/doks-challenge-vcluster/</loc>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.alankan.dev/tags/k8s/</loc>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.alankan.dev/tags/kubernetes/</loc>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.alankan.dev/posts/</loc>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh_hk"
+                href="https://blog.alankan.dev/zh_hk/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.alankan.dev/posts/"
+                />
+  </url><url>
+    <loc>https://blog.alankan.dev/tags/</loc>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh_hk"
+                href="https://blog.alankan.dev/zh_hk/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.alankan.dev/tags/"
+                />
+  </url><url>
+    <loc>https://blog.alankan.dev/tags/vcluster/</loc>
+    <lastmod>2022-02-11T23:36:39+00:00</lastmod>
   </url><url>
     <loc>https://blog.alankan.dev/tags/blog/</loc>
     <lastmod>2022-01-26T00:00:00+00:00</lastmod>
@@ -45,32 +89,6 @@
   </url><url>
     <loc>https://blog.alankan.dev/tags/papermod/</loc>
     <lastmod>2022-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.alankan.dev/posts/</loc>
-    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh_hk"
-                href="https://blog.alankan.dev/zh_hk/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.alankan.dev/posts/"
-                />
-  </url><url>
-    <loc>https://blog.alankan.dev/tags/</loc>
-    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh_hk"
-                href="https://blog.alankan.dev/zh_hk/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.alankan.dev/tags/"
-                />
   </url><url>
     <loc>https://blog.alankan.dev/categories/</loc>
     <xhtml:link
