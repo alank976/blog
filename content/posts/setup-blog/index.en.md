@@ -2,7 +2,6 @@
 title: "How did I create this blog for free with Github Pages, Hugo, PaperMod and Giscus"
 date: 2022-01-26
 tags: ["blog", "hugo", "github-pages", "Jekyll", "PaperMod", "giscus"]
-# author: "Me"
 showToc: false
 TocOpen: false
 draft: false
