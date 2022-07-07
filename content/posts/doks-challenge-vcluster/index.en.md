@@ -31,12 +31,12 @@ I joined [a k8s challenge event organized by DigitalOcean in December 2021](http
 >
 > Install vcluster to test upgrades (eg. 1.20 to 1.21 DOKS version) of your cluster. With a virtual cluster, you can create a new Kubernetes cluster inside your existing DOKS cluster, test the application in this new vcluster, and then upgrade your original cluster if everything works well with the new version.
 
-I only have experiences with allocating namespaces per team/bounded context in my past and current day jobs. Although sharing cluster-wide resources like ingress controller is never a concern to us (yet, maybe?), it sounds interesting that I could see how things go virtualized on top of a well-known platform built for virtualization :joy: So I gave [vcluster](https://www.vcluster.com/) a shot.
+I only have experience allocating namespaces per team/bounded context in my past and current day jobs. Although sharing cluster-wide resources like ingress controller is never a concern to us (yet, maybe?), it sounds interesting that I could see how things go virtualized on top of a well-known platform built for virtualization :joy: So I gave [vcluster](https://www.vcluster.com/) a shot.
 
-I peeked a bit other participants' work to gain some insight how they illustrated their installation steps and learnings. Some used Infrastructure as Code tools like Terraform but I know nothing about it so far. That goes to the dummiest approach - words and GIFs 😅: https://github.com/alank976/doks-vcluster-challenge. Click into it if you are interested what I had done :wink:
+I peeked at a bit other participants' work to gain some insight about how they illustrated their installation steps and learnings. Some used Infrastructure as Code tools like Terraform but I know nothing about it at all. That goes to the dummiest approach - words and GIFs 😅: https://github.com/alank976/doks-vcluster-challenge. Click into it if you are interested in what I had done :wink:
 
-It was a great experience and I am grateful that DigitalOcean offered those topics and also CNCF and their cloud platform credits 💰. It is not much but I contributed nothing, learnt something and take something away 😏
+It was a great experience and I am grateful that DigitalOcean offered those topics and also CNCF and their cloud platform credits 💰. It is not much but I contributed nothing, learnt something, and took something away 😏.
 
-What do you guys think about this spinner toy? Should I spent my credit for it? I suspect the delivery fee might go beyond the credit I earned :joy:
+What do you guys think about this spinner toy? Should I spend my credit on this little thing? I suspect the delivery fee might go beyond the credit I earned :joy:.
 ![](https://cdn.shopify.com/s/files/1/1300/8977/products/spinner_31a0980e-b9bf-40c5-8e5a-bd4f745bfb10_480x.jpg?v=1649701500)
 https://store.cncf.io/products/the-kubernetes-metal-helm-fidget-spinner?_pos=6&_sid=7cc9dc1af&_ss=r
