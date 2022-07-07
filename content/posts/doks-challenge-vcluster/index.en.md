@@ -16,12 +16,10 @@ searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-# cover:
-#     image: "<image path/url>" # image path/url
-#     alt: "<alt text>" # alt text
-#     caption: "<text>" # display caption under cover
-#     relative: false # when using page bundles set this to true
-#     hidden: true # only hide on current single page
+cover:
+    image: https://www.digitalocean.com/_next/static/media/logo.87a8f3b8.svg
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
 # editPost:
 #     URL: "https://github.com/alank976/blog/tree/main/content"
 #     Text: "Suggest Changes" # edit text
@@ -29,7 +27,8 @@ ShowPostNavLinks: true
 ---
 
 I joined [a k8s challenge event organized by DigitalOcean in December 2021](https://www.digitalocean.com/community/pages/kubernetes-challenge) that I couldn't quite recall how I came across its ads 😅Anyways, I picked one of the suggested topics:
-> - Deploy a virtual cluster solution
+> Deploy a virtual cluster solution
+>
 > Install vcluster to test upgrades (eg. 1.20 to 1.21 DOKS version) of your cluster. With a virtual cluster, you can create a new Kubernetes cluster inside your existing DOKS cluster, test the application in this new vcluster, and then upgrade your original cluster if everything works well with the new version.
 
 I only have experiences with allocating namespaces per team/bounded context in my past and current day jobs. Although sharing cluster-wide resources like ingress controller is never a concern to us (yet, maybe?), it sounds interesting that I could see how things go virtualized on top of a well-known platform built for virtualization :joy: So I gave [vcluster](https://www.vcluster.com/) a shot.
